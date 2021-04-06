@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.emf.ecore.uri_mapping">
+      <mapping
+            source="pathmap://resources/SYSMOD/"
+            target="platform:/plugin/SYSMOD/">
+      </mapping>
+   </extension>
+   <extension
+         point="org.eclipse.papyrus.uml.extensionpoints.UMLProfile">
+      <profile
+            name="SYSMOD"
+            path="pathmap://resources/SYSMOD/SYSMOD.profile.uml">
+      </profile>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated SYSMOD.profile -->
+      <package
+            uri="http://www.mycompany.com/SYSMOD/1"
+            class="SYSMOD.SYSMODPackage"
+            genModel="SYSMOD.profile.genmodel"/>
+   </extension>
+   <extension
+         point="org.eclipse.uml2.uml.generated_package">
+      <profile
+            location="pathmap://resources/SYSMOD/SYSMOD.profile.uml#_dfWSYJInEeuTfb9oUuzRvQ/"
+            uri="http://www.mycompany.com/SYSMOD/1">
+      </profile>
+   </extension>
+   <extension
+         point="org.eclipse.papyrus.infra.types.core.elementTypeSetConfiguration">
+      <elementTypeSet
+            clientContextID="org.eclipse.papyrus.infra.services.edit.TypeContext"
+            path="SYSMOD.elementtypesconfigurations">
+      </elementTypeSet>
+   </extension>
+   <extension
+         point="org.eclipse.papyrus.infra.architecture.models">
+      <model
+            path="My.architecture">
+      </model>
+   </extension>
+
+</plugin>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Ecore="http://www.eclipse.org/uml2/schemas/Ecore/5" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/uml2/schemas/Ecore/5 pathmap://UML_PROFILES/Ecore.profile.uml#_z1OFcHjqEdy8S4Cr8Rc_NA">
+  <uml:Profile xmi:id="_dfWSYJInEeuTfb9oUuzRvQ" name="SYSMOD">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_urDJYJInEeuTfb9oUuzRvQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YnPpEJIpEeuTfb9oUuzRvQ" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YnPpEZIpEeuTfb9oUuzRvQ" key="Version" value="0.0.0"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YnPpEpIpEeuTfb9oUuzRvQ" key="Comment" value="&lt;undefined>"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YnPpE5IpEeuTfb9oUuzRvQ" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YnPpFJIpEeuTfb9oUuzRvQ" key="Date" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YnPpFZIpEeuTfb9oUuzRvQ" key="Author" value="&lt;undefined>"/>
+      </eAnnotations>
+      <contents xmi:type="ecore:EPackage" xmi:id="_gTbRoZIpEeuTfb9oUuzRvQ" name="SYSMOD" nsURI="http://www.mycompany.com/SYSMOD/1" nsPrefix="SYSMOD">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gTbRopIpEeuTfb9oUuzRvQ" source="http://www.eclipse.org/uml2/4.1.0/UML">
+          <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gTb4sZIpEeuTfb9oUuzRvQ" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gTb4spIpEeuTfb9oUuzRvQ" key="Version" value="0.0.2"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gTb4s5IpEeuTfb9oUuzRvQ" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gTb4tJIpEeuTfb9oUuzRvQ" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gTb4tZIpEeuTfb9oUuzRvQ" key="Date" value="2021-03-31"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gTb4tpIpEeuTfb9oUuzRvQ" key="Author" value=""/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_gTbRo5IpEeuTfb9oUuzRvQ" name="System">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gTbRpJIpEeuTfb9oUuzRvQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_krB18JInEeuTfb9oUuzRvQ"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_gTbRpZIpEeuTfb9oUuzRvQ" name="SystemIdea" ordered="false">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_urDJYZInEeuTfb9oUuzRvQ" name="SYSMOD" nsURI="http:///schemas/SYSMOD/_urBUMJInEeuTfb9oUuzRvQ/0" nsPrefix="SYSMOD">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_urDJYpInEeuTfb9oUuzRvQ" source="http://www.eclipse.org/uml2/4.1.0/UML">
+          <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_urDwcZInEeuTfb9oUuzRvQ" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_urDwcpInEeuTfb9oUuzRvQ" key="Version" value="0.0.1"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_urDwc5InEeuTfb9oUuzRvQ" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_urDwdJInEeuTfb9oUuzRvQ" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_urDwdZInEeuTfb9oUuzRvQ" key="Date" value="2021-03-31"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_urDwdpInEeuTfb9oUuzRvQ" key="Author" value=""/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_urDJY5InEeuTfb9oUuzRvQ" name="System">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_urDJZJInEeuTfb9oUuzRvQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_krB18JInEeuTfb9oUuzRvQ"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks/Block"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_urDJZZInEeuTfb9oUuzRvQ" name="SystemIdea" ordered="false">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+    </eAnnotations>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_dpqE8JInEeuTfb9oUuzRvQ">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_dprTEJInEeuTfb9oUuzRvQ">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_METAMODELS/UML.metamodel.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_iVC2AJInEeuTfb9oUuzRvQ">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_iVEEIJInEeuTfb9oUuzRvQ">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Activities"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_iVEEIZInEeuTfb9oUuzRvQ">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Allocations"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_iVErMJInEeuTfb9oUuzRvQ">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_iVErMZInEeuTfb9oUuzRvQ">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ConstraintBlocks"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_iVErMpInEeuTfb9oUuzRvQ">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_DeprecatedElements"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_iVErM5InEeuTfb9oUuzRvQ">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ModelElements"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_iVErNJInEeuTfb9oUuzRvQ">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Ports_u0026Flows"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_iVErNZInEeuTfb9oUuzRvQ">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Requirements"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_krB18JInEeuTfb9oUuzRvQ" name="System">
+      <generalization xmi:type="uml:Generalization" xmi:id="_uBEYQJInEeuTfb9oUuzRvQ">
+        <general xmi:type="uml:Stereotype" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks.stereotype_packagedElement_Block"/>
+      </generalization>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_lv3XEJInEeuTfb9oUuzRvQ" name="SystemIdea" visibility="public">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_nXk7wJInEeuTfb9oUuzRvQ"/>
+      </ownedAttribute>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_YnMlwJIpEeuTfb9oUuzRvQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YnSsYJIpEeuTfb9oUuzRvQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Ecore.profile.uml#_z1OFcHjqEdy8S4Cr8Rc_NA"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Ecore.profile.uml#_0"/>
+    </profileApplication>
+  </uml:Profile>
+  <Ecore:EPackage xmi:id="_Zoo0oJIpEeuTfb9oUuzRvQ" base_Package="_dfWSYJInEeuTfb9oUuzRvQ" nsURI="http://www.mycompany.com/SYSMOD/1"/>
+</xmi:XMI>

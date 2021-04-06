@@ -1,0 +1,6 @@
+Currently working with Papyrus 2020-12. 
+- Go to https://www.eclipse.org/papyrus/download.html
+- Download Papyrus 2020-12
+- Open Papyrus -> Help -> Install New Software -> https://download.eclipse.org/modeling/mdt/papyrus/updates/releases/2020-12
+- Install the toolsmith package 
+- Then install the SysML 1.6 package via Install New Software -> see here: https://www.eclipse.org/forums/index.php/t/1106817/

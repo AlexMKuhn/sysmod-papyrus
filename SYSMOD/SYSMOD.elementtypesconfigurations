@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elementtypesconfigurations:ElementTypeSetConfiguration xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:applystereotypeadvice="http://www.eclipse.org/papyrus/uml/types/applystereotypeadvice/1.1" xmlns:elementtypesconfigurations="http://www.eclipse.org/papyrus/infra/elementtypesconfigurations/1.2" xmlns:stereotypematcher="http://www.eclipse.org/papyrus/uml/types/stereotypematcher/1.1" xmi:id="com.example.sysmod.elementTypes" identifier="com.example.sysmod.elementTypes" name="SYSMOD" metamodelNsURI="http://www.eclipse.org/uml2/5.0.0/UML">
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.example.sysmod.System" identifier="com.example.sysmod.System" name="System" hint="UML::Class" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_HRZ3QpIsEeuTfb9oUuzRvQ" iconPath="/icons/full/obj16/Class.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_HRZ3Q5IsEeuTfb9oUuzRvQ">
+      <stereotypesQualifiedNames>SYSMOD::System</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
+  </elementTypeConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_HRZ3RJIsEeuTfb9oUuzRvQ" description="Apply Stereotype System" identifier="com.example.sysmod.system" target="com.example.sysmod.System">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_HRZ3RZIsEeuTfb9oUuzRvQ" stereotypeQualifiedName="SYSMOD::System" updateName="true">
+      <requiredProfiles>SYSMOD</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+</elementtypesconfigurations:ElementTypeSetConfiguration>

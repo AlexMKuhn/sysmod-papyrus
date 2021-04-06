@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="SYSMOD" nsURI="http://www.mycompany.com/SYSMOD/1" nsPrefix="SYSMOD">
+  <eClassifiers xsi:type="ecore:EClass" name="System" eSuperTypes="../org.eclipse.papyrus.sysml16/resources/profile/SysML.profile.ecore#//blocks/Block">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="SystemIdea" ordered="false"
+        eType="ecore:EDataType ../org.eclipse.uml2.types/model/Types.ecore#//String"/>
+  </eClassifiers>
+</ecore:EPackage>
